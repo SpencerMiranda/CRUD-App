@@ -37,8 +37,8 @@ function RecipeCreate({ onAddRecipe }) {
         display: "flex", 
         flexDirection: "row", 
         alignItems: "center",
-        marginBottom: "20px", // Spacing between form and table
-        backgroundColor: "#fff0c7" // Zebra coloring
+        marginBottom: "20px",
+        backgroundColor: "#fff0c7"
       }}
     >
       <input 
@@ -84,9 +84,9 @@ function RecipeCreate({ onAddRecipe }) {
         style={{ 
           flexBasis: "auto", 
           fontSize: "12px",
-          padding: "5px 10px", // Adjusted padding
-          marginLeft: "10px", // Added margin to the left
-          marginRight: "5px" // Added margin to the right
+          padding: "5px 10px", 
+          marginLeft: "10px", 
+          marginRight: "5px" 
         }}
       >
         Create
